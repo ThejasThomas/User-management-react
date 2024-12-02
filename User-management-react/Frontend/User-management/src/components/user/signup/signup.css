@@ -1,0 +1,79 @@
+/* signup.css */
+
+
+  .login-form {
+    background: #049cd8 !important;
+  }
+
+  
+
+ 
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus {
+    border-color: #6a11cb;
+  }
+  
+  .login-form .error {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    margin-top: -15px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form .submit-btn {
+    background: #6a11cb;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-form .submit-btn:hover {
+    background: #2575fc;
+  }
+  
+  .login-form .signin-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .login-form .signin-text a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-form .signin-text a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 500px) {
+    .login-form {
+      padding: 20px;
+    }
+  
+    .login-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .login-form .submit-btn {
+      font-size: 0.9rem;
+    }
+  }
+  
